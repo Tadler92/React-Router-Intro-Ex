@@ -1,0 +1,16 @@
+.NavBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(134, 8, 8);
+}
+
+.NavBar a.active {
+  font-weight: bold;
+  color: #2ac8f8;
+  /* background-color: rgb(194, 18, 18); */
+}

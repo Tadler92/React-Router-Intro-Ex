@@ -5,6 +5,7 @@ import VendingMachine from './VendingMachine'
 import Chips from './Chips'
 import Cookies from './Cookies'
 import Drinks from './Drinks'
+import NavBar from './NavBar'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <>
       <div>
         <BrowserRouter>
+        <NavBar />
         <Routes>
           <Route path='/' element={<VendingMachine />} />
           <Route path='/chips' element={<Chips />} />
