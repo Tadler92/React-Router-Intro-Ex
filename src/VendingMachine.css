@@ -1,0 +1,35 @@
+.VendingMachine {
+  display: flex;
+  /* width: 100vw; */
+  /* padding: 50px; */
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: yellow; */
+}
+
+.VendingMachine div {
+  /* display: inline-block; */
+  width: 250px;
+  height: 150px;
+  /* margin: 0 50px; */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 15px;
+}
+
+.VendingMachine-hello {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.VendingMachine-links {
+  margin-right: 50px;
+}
+
+.VendingMachine-links p {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
